@@ -1,0 +1,17 @@
+﻿.myGrid {
+    display: grid;
+    grid-template-columns: repeat(8, 50px);
+    grid-template-rows: repeat(8, 50px);
+}
+
+    .myGrid > div {
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+.myForm {
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+}

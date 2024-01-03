@@ -1,0 +1,6 @@
+@ClaimTheSquareWithBackend_HostAddress = http://localhost:5200
+
+GET {{ClaimTheSquareWithBackend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
